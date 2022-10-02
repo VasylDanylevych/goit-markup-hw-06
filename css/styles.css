@@ -526,12 +526,20 @@ address {
     color: var(--accent-color);
 }
 
+.footer-wrap:not(:last-child) {
+    margin-bottom: 9px;
+}
 
-.footer-item:not(:last-child) {
+.address-container {
     margin-right: 70px;
 }
 
+
 /* приєднуйтесь */
+
+.footer-subscribe {
+    margin-left: auto;
+}
 
 .footer-title {
     font-size: 14px;
