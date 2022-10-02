@@ -638,6 +638,8 @@ address {
     border: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-icon {
@@ -646,6 +648,11 @@ address {
     margin-left: 10px;
 }
 
+.subscribe-btn:hover,
+.submit-btn:focus {
+    background-color: var(--hero-btn-hover-color);
+    border: 0;
+}
 
 /* ПОРТФОЛІО */
 
