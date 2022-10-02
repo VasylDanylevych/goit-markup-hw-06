@@ -975,6 +975,7 @@ address {
     line-height: 1.71;
     text-align: center;
     color: var(--secondary-tex-color);
+    cursor: pointer;
 }
 
 .checkbox {
