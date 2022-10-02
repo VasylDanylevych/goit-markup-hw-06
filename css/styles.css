@@ -632,6 +632,7 @@ address {
 
 .subscribe-btn {
     display: flex;
+    align-items: center;
     background-color: var(--accent-color);
     color: var(--white-color);
     font-family: inherit;
